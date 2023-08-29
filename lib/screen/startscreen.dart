@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:latihan_satu/model/home.dart';
+import 'package:latihan_satu/model/UI/home.dart';
 import 'package:latihan_satu/screen/login.dart';
+import 'package:latihan_satu/screen/register.dart';
 
 class StartScreen extends StatefulWidget {
   const StartScreen({super.key});
@@ -75,7 +76,7 @@ class _StartScreenState extends State<StartScreen> {
                   ),
                 ),
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage()));
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => RegisterPage()));
                 },
                 child: Text(
                   "Register",
