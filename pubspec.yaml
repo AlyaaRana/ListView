@@ -62,6 +62,8 @@ flutter:
     - assets/image/insideOut.jpg
     - assets/image/crown.png
     - assets/image/barbie.jpg
+    - assets/image/barbie.jpg
+    - assets/image/no_movie_image.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
